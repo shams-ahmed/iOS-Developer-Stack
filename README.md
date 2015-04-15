@@ -1,4 +1,4 @@
-# iOS Developers Stack
+# iOS Developer Stack
 A great list of the best and most common iOS developers tools to get you started with development on your Mac computer!  
 
 Feel free to contribute: [issues](https://github.com/shams-ahmed/ios-developers-stack/issues), [pull requests](https://github.com/shams-ahmed/ios-developers-stack/pulls), or [Twitter](https://twitter.com/shams5035). Get in contact with the developer on Twitter: @shams5035
