@@ -1,5 +1,5 @@
 # iOS Developer Stack
-A list of some of the best and most common iOS developers tools to get you started with development on your Mac computer!  
+A list of some of the best and most common iOS developers tools, tricks, script, commands, project settings etc...
 
 Feel free to contribute: [issues](https://github.com/shams-ahmed/ios-developers-stack/issues), [pull requests](https://github.com/shams-ahmed/ios-developers-stack/pulls), or [Twitter](https://twitter.com/shams5035). Get in contact with the developer on Twitter: @shams5035
 
@@ -82,13 +82,23 @@ once installed restart XCode and select Package Manager from the Window menu.
 
 ### Continuous integration
 * [**Travis-ci**](https://travis-ci.com/) Focus on writing code. Let Travis CI take care of running your tests and deploying your apps.  
-* [**Jenkins app**](https://github.com/stisti/jenkins-app) open source ci
+* [**Jenkins app**](https://github.com/stisti/jenkins-app) open source ci  
+	* [**CocoaPods Plugin**](https://wiki.jenkins-ci.org/display/JENKINS/CocoaPods+Plugin) This plugin provides a build step for projects which use CocoaPods.
+	* [**Xcode+Plugin**](https://wiki.jenkins-ci.org/display/JENKINS/Xcode+Plugin) adds the ability to call Xcode command line tools to automate build and packaging iOS applications (iPhone, iPad, ...).  
 * [**Coveralls**](https://coveralls.io/) deliver code confidently by showing which parts of your code aren't covered by your test suite.  
 
 
 ### Command line
 * Quick Look text selection
 ```defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder```
+
+
+### XCode Project
+* Use plain “DWARF” instead of “DWARF with dSYM File” as your “Debug Information Format”.
+* Don’t compile your project code or use static libraries compiled with -O4 since it tells Clang to enable Link Time Optimizations (LTO) making the linking stage much slower. Use -O3 at most.
+* Use forward declaration instead of having headers include were possible
+* set Build Settings / Architectures / Build Active Architecture Only to YES.
+* create ramdisk for iOS sim, derived data etc. only if you have 16gb ram. see [xcode_ramdisk.sh](https://gist.github.com/skeeet/2367298)
 
 
 ### More Ideas
