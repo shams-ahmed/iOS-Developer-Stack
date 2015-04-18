@@ -27,7 +27,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 	* [**Backlight-for-XCode**](https://github.com/limejelly/Backlight-for-XCode)  Highlights the current editing line in Xcode 
 	* [**GitDiff**](https://github.com/johnno1962/GitDiff)  displays deltas against a git repo in the Xcode source editor once you've saved the file  
  
-### Debug tool
+### Debug tool  
 	* [**Tuna**](https://github.com/dealforest/Tuna) Xcode plugin that provides easy set breakpoint  
 	* [**Chisel**](https://github.com/facebook/chisel)  Chisel is a collection of LLDB commands to assist debugging iOS apps.  
 	* [**PonyDebugger**](https://github.com/square/PonyDebugger) Remote network and data debugging for your native iOS app using Chrome Developer Tools  
