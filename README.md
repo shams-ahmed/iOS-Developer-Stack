@@ -8,15 +8,12 @@ Feel free to contribute: [issues](https://github.com/shams-ahmed/ios-developers-
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)```  
 once installed finalise setup:  
 ```brew update && brew doctor```
-
 * [**Homebrew Cask**](http://caskroom.io/) provides a friendly homebrew-style CLI workflow for the administration of Mac applications distributed as binaries.  
 ```brew update && brew install caskroom/cask/brew-cask```
-
 * [**CocoaPods**](https://github.com/CocoaPods/CocoaPods) manages dependencies for your Xcode projects. (note: may take a few minutes)  
 ```sudo gem install cocoapods && pod setup``` 
 * [**Carthage**](https://github.com/Carthage/Carthage)  builds your dependencies and provides you with binary frameworks, but allows you to retain full control over your project structure and setup. Carthage does not automatically modify your project files or your build settings.  
 ```brew install carthage```  
-
 * [**Alcatraz**](http://alcatraz.io/) is an open-source package manager for Xcode 5+. It lets you discover and install plugins, templates and color schemes without the need for manually cloning or copying files.  
 ```curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/master/Scripts/install.sh | sh```  
 once installed restart XCode and select Package Manager from the Window menu.  
@@ -27,6 +24,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 	* [**Backlight-for-XCode**](https://github.com/limejelly/Backlight-for-XCode)  Highlights the current editing line in Xcode 
 	* [**GitDiff**](https://github.com/johnno1962/GitDiff)  displays deltas against a git repo in the Xcode source editor once you've saved the file  
  
+
 ### Debug tool  
 * [**Tuna**](https://github.com/dealforest/Tuna) Xcode plugin that provides easy set breakpoint  
 * [**Chisel**](https://github.com/facebook/chisel)  Chisel is a collection of LLDB commands to assist debugging iOS apps.  
@@ -39,6 +37,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 * [**iOS-Headers**](https://github.com/MP0w/iOS-Headers) iOS 5.0/5.1/6.0/6.1/7.0/7.1/8.0/8.1 Headers of All Frameworks  
 * [**class-dump**](https://github.com/nygard/class-dump) Generate Objective-C headers from Mach-O files
 
+
 ### Application and Script  
 * [**App code**](https://www.jetbrains.com/objc/) alternative to xcode IDE  
 * [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh) A community-driven framework for managing your zsh configuration.  
@@ -48,9 +47,9 @@ once installed restart XCode and select Package Manager from the Window menu.
 * [**Dash**](https://kapeli.com/dash) a API Documentation Browser and Code Snippet Manager.  
 * [**Prepo**](http://wearemothership.com/work/prepo/) Prepare, share and preview App artwork and icons  
 
+
 ### Quicklook plugin
 * [**qlmarkdown**](https://github.com/toland/qlmarkdown) 
-``````
 * [**ProvisionQL**](https://github.com/ealeksandrov/ProvisionQL) Quick Look plugin for .ipa and .mobileprovision 
 ```brew cask install provisionql```  
 
