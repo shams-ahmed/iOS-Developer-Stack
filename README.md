@@ -41,23 +41,26 @@ once installed finalise setup:
 
 ### Application and Script  
 * [**App code**](https://www.jetbrains.com/objc/) alternative to xcode IDE  
-* [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh) A community-driven framework for managing your zsh configuration.  
-* [**Sublime**](http://www.sublimetext.com/) Sublime Text is a sophisticated text editor for code, markup and prose.  
+* [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh):star: A community-driven framework for managing your zsh configuration.  
+```curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh```  
+* [**Sublime**](http://www.sublimetext.com/) Sublime Text is a sophisticated text editor for code, markup and prose.   
+```brew cask install sublime-text```  
 * [**Unused**](http://jeffhodnett.github.io/Unused/) check Xcode projects for unused resources  
 * [**Synx**](https://github.com/venmo/synx) command-line tool that reorganizes your Xcode project folder to match your Xcode groups 
 * [**Dash**](https://kapeli.com/dash):star: a API Documentation Browser and Code Snippet Manager.  
 * [**Prepo**](http://wearemothership.com/work/prepo/) Prepare, share and preview App artwork and icons  
-* [**Flaashlight**](https://github.com/nate-parrott/Flashlight) The missing Spotlight plugin system
+* [**Flashlight**](https://github.com/nate-parrott/Flashlight) The missing Spotlight plugin system  
+```brew cask install flashlight```  
 
 
 ### Quicklook Plugin
 * [**qlmarkdown**](https://github.com/toland/qlmarkdown) QuickLook generator for Markdown files
-* [**ProvisionQL**](https://github.com/ealeksandrov/ProvisionQL) Quick Look plugin for .ipa and .mobileprovision 
+* [**ProvisionQL**](https://github.com/ealeksandrov/ProvisionQL) Quick Look plugin for .ipa and .mobileprovision   
 ```brew cask install provisionql```  
 
 
 ### Build
-* [**XCTool**](https://github.com/facebook/xctool) replacement for Apple's xcodebuild that makes it easier to build and test iOS or OSX apps  
+* [**XCTool**](https://github.com/facebook/xctool) replacement for Apple's xcodebuild that makes it easier to build & test iOS/OSX apps  
 ```brew install xctool```
 * [**Fastlane**](https://github.com/KrauseFx/fastlane):star2: Connect all iOS deployment tools into one streamlined workflow  
 ```sudo gem install fastlane```
@@ -74,8 +77,8 @@ once installed finalise setup:
 
 ### Design 
 * [**iOS app icon**](http://appicontemplate.com/ios8):star: iOS app icon
-* [**OSX app icon **](http://appicontemplate.com/osx) OSX app icon
-* [**Watch app icon **](http://appicontemplate.com/watch) watch app icon
+* [**OSX app icon**](http://appicontemplate.com/osx) OSX app icon
+* [**Watch app icon**](http://appicontemplate.com/watch) watch app icon
 * [**iPhone screenshot**](http://appicontemplate.com/iphonescreenshot) screenshot marker for iPhone
 * [**iPad screenshot**](http://appicontemplate.com/ipadscreenshot) screenshot marker for iPad
 * [**iPhone GUI**](http://www.teehanlax.com/tools/iphone/):star: photoshop template of all iOS8 controls
