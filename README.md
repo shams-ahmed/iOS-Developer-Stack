@@ -3,7 +3,7 @@ A list of some of the best and most common iOS developers tools, tricks, script,
 
 Feel free to contribute: [issues](https://github.com/shams-ahmed/ios-developers-stack/issues), [pull requests](https://github.com/shams-ahmed/ios-developers-stack/pulls), or [Twitter](https://twitter.com/shams5035). Get in contact with the developer on Twitter: @shams5035
 
-### Package manager
+### Package Manager
 * [**Homebrew**](http://brew.sh/) installs the stuff you need that Apple didn’t.   
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)```  
 once installed finalise setup:  
@@ -17,15 +17,17 @@ once installed finalise setup:
 * [**Alcatraz**](http://alcatraz.io/) is an open-source package manager for Xcode 5+. It lets you discover and install plugins, templates and color schemes without the need for manually cloning or copying files.  
 ```curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/master/Scripts/install.sh | sh```  
 once installed restart XCode and select Package Manager from the Window menu.  
-	* [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode)  Xcode plug-in which helps you write Javadoc style documents easier.  
+	* [**VVDocumenter**](https://github.com/onevcat/VVDocumenter-Xcode):star2: Xcode plug-in which helps you write Javadoc style documents easier.  
 	* [**XToDo**](https://github.com/trawor/XToDo)  Xcode plugin to collect and list the `TODO`,`FIXME`,`???`,`!!!!`
 	* [**XcodeColors**](https://github.com/robbiehanson/XcodeColors)  allows you to use colors in the Xcode debugging console. It's designed to aid in the debugging process.  
 	* [**KSImageNamed-Xcode**](https://github.com/ksuther/KSImageNamed-Xcode)  plug-in that provides autocomplete for imageNamed: calls 
 	* [**Backlight-for-XCode**](https://github.com/limejelly/Backlight-for-XCode)  Highlights the current editing line in Xcode 
-	* [**GitDiff**](https://github.com/johnno1962/GitDiff)  displays deltas against a git repo in the Xcode source editor once you've saved the file  
+	* [**GitDiff**](https://github.com/johnno1962/GitDiff) displays deltas against a git repo in the Xcode source editor once you've saved the file 
+	* [**Xcode way**](https://github.com/onmyway133/XcodeWay) Xcode plugin that makes navigating to many places easier  
+	* [**ZMDocItemInspector**](https://github.com/zolomatok/ZMDocItemInspector) Xcode plugin converts the Quick Help inspector into an always visible Document Items inspector.
  
 
-### Debug tool  
+### Debug Tool  
 * [**Tuna**](https://github.com/dealforest/Tuna) Xcode plugin that provides easy set breakpoint  
 * [**Chisel**](https://github.com/facebook/chisel)  Chisel is a collection of LLDB commands to assist debugging iOS apps.  
 * [**PonyDebugger**](https://github.com/square/PonyDebugger) Remote network and data debugging for your native iOS app using Chrome Developer Tools  
@@ -48,7 +50,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 * [**Prepo**](http://wearemothership.com/work/prepo/) Prepare, share and preview App artwork and icons  
 
 
-### Quicklook plugin
+### Quicklook Plugin
 * [**qlmarkdown**](https://github.com/toland/qlmarkdown) 
 * [**ProvisionQL**](https://github.com/ealeksandrov/ProvisionQL) Quick Look plugin for .ipa and .mobileprovision 
 ```brew cask install provisionql```  
@@ -63,7 +65,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 ```gem install shenzhen```
 
 
-### GIT (source control)
+### Git (source control)
 * [**Objective-c**](https://github.com/github/gitignore/blob/master/Objective-C.gitignore) .gitignore list  
 * [**Swift**](https://github.com/github/gitignore/blob/master/Swift.gitignore) .gitignore list  
 * [**Xcode**](https://github.com/github/gitignore/blob/master/Global/Xcode.gitignore) .gitignore list  
@@ -80,7 +82,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 * [**iPad GUI**](http://www.teehanlax.com/tools/ipad/) 
 
 
-### Continuous integration
+### Continuous Integration (CI)
 * [**Travis-ci**](https://travis-ci.com/) Focus on writing code. Let Travis CI take care of running your tests and deploying your apps.  
 * [**Jenkins app**](https://github.com/stisti/jenkins-app) open source ci  
 	* [**CocoaPods Plugin**](https://wiki.jenkins-ci.org/display/JENKINS/CocoaPods+Plugin) This plugin provides a build step for projects which use CocoaPods.
@@ -88,7 +90,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 * [**Coveralls**](https://coveralls.io/) deliver code confidently by showing which parts of your code aren't covered by your test suite.  
 
 
-### Command line
+### Command Line
 * Quick Look text selection
 ```defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder```
 
@@ -102,7 +104,7 @@ once installed restart XCode and select Package Manager from the Window menu.
 
 
 ### More Ideas
-add star system of highly recommended  
+add star system of highly recommended
 
 
 ### License
