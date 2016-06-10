@@ -43,7 +43,7 @@ once installed finalise setup:
 * [**App code**](https://www.jetbrains.com/objc/) alternative to xcode IDE  
 * [**oh-my-zsh**](https://github.com/robbyrussell/oh-my-zsh):star: A community-driven framework for managing your zsh configuration.  
 ```curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh```  
-* [**YADR**](https://github.com/skwp/dotfiles) The best bits of all the top dotfile repos, vim and zsh plugins curated in one place, into a simple and cohesive way of working.
+* [**YADR**](https://github.com/skwp/dotfiles) The best bits of all the top dotfile repos, vim and zsh plugins curated in one place, into a simple and cohesive way of working.   
 ```curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh```  
 * [**Sublime**](http://www.sublimetext.com/) Sublime Text is a sophisticated text editor for code, markup and prose.   
 ```brew cask install sublime-text```  
